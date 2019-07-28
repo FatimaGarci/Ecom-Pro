@@ -1,0 +1,71 @@
+.navbar {
+    background-color:  rgba(21,31,33,0.5);
+    border-bottom: 1px solid #dedede;
+    font-family: 'Bree Serif', serif;
+}
+.navbar .navbar-nav .nav-link {
+    color: #d1d1d1;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.img-fluied{
+    width: 75px;
+    height: 50px;
+}
+
+.tittle{
+    font-size: 40px;
+    padding-left: 20%;
+    font-family: 'Candal', sans-serif;
+}
+.p1{
+    width: 70%;
+    padding-left: 30%;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Candal', sans-serif;
+}
+.p2{
+    width: 70%;
+    padding-left: 30%;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Candal', sans-serif;
+}
+.h2{
+    width: 70%;
+    padding-left: 30%;
+    font-family: 'Candal', sans-serif;
+    font-size: 41px;
+
+}
+.list{
+    width: 70%;
+    padding-left: 30%;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Candal', sans-serif;
+}
+.pic0{
+    padding-left: 25%;
+
+}
+.checklist{
+    padding-left: 20%;
+}
+/************************************************/
+
+.grid-container {
+       display: grid;
+       justify-content: center;
+       grid-template-rows: 200px; /*300px 100px;*/
+       grid-gap: 10px;
+       padding: 10px;
+       font-family: 'Coda', cursive;
+   }
+   
+   .grid-container > div {
+       background-color: rgba(253, 253, 253, 0.8);
+       text-align: center;
+       padding: 80px ;
+       width: 1100px;
+       /*Height: 100px;*/
+   }

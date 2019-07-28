@@ -1,7 +1,7 @@
 .navbar {
     background-color:  rgba(21,31,33,0.5);
     border-bottom: 1px solid #dedede;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Bree Serif', serif;
 }
 .navbar .navbar-nav .nav-link {
     color: #d1d1d1;
@@ -12,4 +12,144 @@
 .img-fluied{
     width: 75px;
     height: 50px;
+}
+/*********************
+*/
+ .aligment {
+     margin-left: 70%;
+}
+.first{
+    margin: 30%;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+}
+.second{
+    margin: 30%;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+}
+.third{
+    margin: 30%;
+    font-family: 'Bree Serif', serif;
+    font-size: 70px;
+}
+/*******************************************
+*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .tittle{
+    font-size: 50px;
+    padding-left: 23%;
+    font-family: 'Bree Serif', serif;
+  }
+  .text{
+    padding-left: 25%;
+    width: 80%;
+    font-family: 'Bree Serif', serif;
+  }
+
+/******************/
+.storie{
+  width: 70%;
+  padding-left: 40%;
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+}
+.p1{
+  width: 80%;
+  padding-left: 17%;
+  font-family: 'Bree Serif', serif;
+
+}
+.p2{
+  width: 80%;
+  padding-left: 17%;
+  font-family: 'Bree Serif', serif;
+
+}
+.stories{
+  width: 70%;
+  padding-left: 35%;
+  font-family: 'Bree Serif', serif;
+  font-size: 40px;
+}
+.storiess{
+  width: 70%;
+  padding-left: 17%;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+}
+.alaska{
+  width: 1310px;
+  height: 600px;
+  padding-left: 17%;
+}
+.places{
+  font-size: 40px;
+  padding-left: 33%;
+  font-family: 'Bree Serif', serif;
+}
+.countries{
+  font-size: 25px;
+  padding-left: 20%;
+  font-family: 'Bree Serif', serif;
+}
+/*********************************************/
+
+.pic1{
+  width: 800px;
+  height: 500px;
+}
+.pic2{
+  width: 800px;
+  height: 600px;
+}
+.pic3{
+  width: 800px;
+  height: 600px;
+}
+.pic4{
+  width: 800px;
+  height: 600px;
+}
+.pic5{
+  width: 800px;
+  height: 600px;
+}
+.pic6{
+  width: 800px;
+  height: 600px;
+}
+.pic7{
+  width: 800px;
+  height: 600px;
+}
+.pic8{
+  width: 800px;
+  height: 600px;
+}
+.pic9{
+  width: 900px;
+  height: 600px;
+}
+.pic10{
+  width: 800px;
+  height: 600px;
 }
