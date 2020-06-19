@@ -1,43 +1,41 @@
-.navbar {
-    background-color:  rgba(21,31,33,0.5);
-    border-bottom: 1px solid #dedede;
-    font-family: 'Bree Serif', serif;
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
 }
-.navbar .navbar-nav .nav-link {
-    color: #d1d1d1;
-}
-.navbar .navbar-nav .nav-link:hover {
-    color: #fff;
-}
-.img-fluied{
-    width: 75px;
-    height: 50px;
-}
-.product-contentp{
-    font-family: 'Bree Serif', serif;
-    font-size: 50px;
-}
-/************/
 
 .grid-container {
     display: grid;
-    justify-content: center;
-    grid-template-columns: 300px 300px 300px; /*Make the grid smaller than the container*/
+    grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    /*background-color: #2196F3;*/
     padding: 10px;
-    font-family: 'Coda', cursive;
-
   }
   
   .grid-container > div {
-    background-color: rgba(253, 253, 253, 0.8);
+    background-color: rgba(230, 228, 228, 0.671);
+    border-style: groove;
     text-align: center;
-    padding: 55px 0;
-    /*font-size: 30px;*/
-    
+    font-size: 30px;
   }
-.price{
-    font-size: 40px;
-    font-family: 'Bree Serif', serif;
+ .grid-container img {
+     width: 320px;
+     height: 270px;
+ }
+ a{
+     color: black;
+ }
+ .button {
+    background-color:  rgb(230, 228, 228);
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0.8px rgb(255, 255, 255);
 }

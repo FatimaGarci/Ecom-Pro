@@ -22,8 +22,6 @@ form {
   }
   form p {
     padding-left: 20px;
-    
-    
   }
   label {
     display: block;
@@ -42,6 +40,8 @@ form {
   .form{
     background: #dedede;
   }
+
+  
 footer{
   position: fixed;
   left: 0;
